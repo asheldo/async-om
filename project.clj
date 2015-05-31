@@ -1,4 +1,4 @@
-(defproject atw-om/lein-template "0.0.1"
+(defproject async-om/lein-template "0.0.1"
   :description "Clojure, all the way with Om, based on zaiste/atw-om"
   :url "https://github.com/asheldo/async-om"
   :license {:name "Eclipse Public License"
