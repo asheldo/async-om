@@ -1,9 +1,9 @@
-(ns leiningen.new.atw-om
+(ns leiningen.new.async-om
   (:require [leiningen.new.templates :refer [renderer name-to-path ->files]]))
 
-(def render (renderer "atw-om"))
+(def render (renderer "async-om"))
 
-(defn atw-om [name]
+(defn async-om [name]
   (let [data {:name name
               :sanitized (name-to-path name)}]
     (->files data
